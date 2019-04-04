@@ -1,0 +1,34 @@
+请输入用户名：Please input a username
+请输入密码：Please input a password 
+新用户注册：New user registration 
+确认密码：Confirm password 
+登陆：Sign in
+首页：HomePage
+分类: Classification  
+购物车：Cart
+我的：My Information
+我的订单：My order
+收货地址：Receiving address 
+加入购物车：Add to cart 
+店铺商品分类：Classification of shop goods
+立即购买：Immediately purchase
+销量：Sales
+价格：Price
+显示有货：Goods available 
+进店：Go to the ShopPage
+热门商品：Hot goods
+库存：Stock
+种类：Kinds
+提交订单：Submit order
+评论商品：Comment the goods
+商品评论：Good comments
+详情：Details
+空：Empty
+进店逛逛：Go to the store
+进店：Go to the store
+支付成功：Pay success
+我的信息：My Information
+回到首页：Back to the HomePage
+下拉刷新：Drop down refresh
+
+
