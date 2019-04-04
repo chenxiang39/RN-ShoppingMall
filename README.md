@@ -29,7 +29,7 @@ react-native run-ios
 react-native run-android
 ```
 
-## Screenshot
+## Screenshots
 
 <div>
 <img src='./screenshots/1.jpg' width=200 height=400>
