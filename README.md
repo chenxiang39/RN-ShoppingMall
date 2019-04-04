@@ -1,5 +1,5 @@
 ## Introduce
-This was a simple shopping mall application , l used the React Native framework to create the application's front-end (View and Controller), my partner used the nodejs to create the APP's back-end.
+This was a simple shopping mall application , l used the React Native framework to create the application's front-end (View and Controller), my partner used the nodejs to create the application's back-end.
 
 ## Environmental configuration
 
