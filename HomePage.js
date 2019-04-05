@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
-import {StyleSheet,Image, Text, View ,TextInput , Button} from 'react-native';
+import {StyleSheet,Image, Text, View ,TextInput , Button ,TouchableOpacity} from 'react-native';
 import {Dimensions} from 'react-native';
-import {BoxShadow} from 'react-native-shadow'
 import UserService from './service/UserService'
 import UserDataModel from './viewModel/UserDataModel'
 import apiHelper from './common/apiHelper'
-import { TouchableOpacity } from 'react-native-gesture-handler';
-import { white } from 'ansi-colors';
 global.btnStyleFlag = false  //控制按钮的样式
 global.deviceWidth = Dimensions.get('window').width
 global.deviceHeight = Dimensions.get('window').height
@@ -79,16 +76,6 @@ export default class HomePage extends Component{
       this.props.navigation.navigate('RegisterPage')
     }
     render(){
-      const shadowConfig  = {
-        width:(deviceWidth)- 20 - 20,
-        height:45,
-        color:'#FF8C00',
-        border:1,
-        radius:25,
-        opacity:1,
-        x:0,
-        y:0,
-      }
       return (
         <View style={styles.HomePageContainer}>
             <View style ={styles.titleContainer}>
