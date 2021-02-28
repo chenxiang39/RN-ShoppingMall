@@ -6,7 +6,7 @@ This was a simple shopping mall application , l used the React Native framework 
 
 * See: [Environment-Setup](https://reactnative.dev/docs/environment-setup) (Install dependencies except React Native CLI => VERSION CONFLICTION)
 
-* Configure IP address : Open ```ipconfig.json``` and replace ```192.168.1.24``` with local address
+* Configure IP address : Open ```ipconfig.json``` and replace ```localhost``` with your correct address(according to Backend address)
 
 ## Cooperative module(necessary)
 
@@ -28,10 +28,8 @@ pod install
 
 ```
 //IOS
-npx react-native start
 npx react-native run-ios
 //Android
-npx react-native start
 npx react-native run-android
 ```
 
