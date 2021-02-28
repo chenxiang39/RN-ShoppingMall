@@ -4,6 +4,7 @@ import ipconfig from '../ipconfig.json'
 let port = ipconfig.ip
 
 async function loadUser (data) {
+   
    await apiHelper.fetch_POST_URL("http://"+port+":3000/User/u_login",data,"application/json")
 }
 async function saveUser (data) {

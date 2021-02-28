@@ -4,7 +4,7 @@ This was a simple shopping mall application , l used the React Native framework 
 ## Environmental configuration
 
 
-* See: [Getting Started](https://facebook.github.io/react-native/docs/getting-started) (Install dependencies except React Native CLI => VERSION CONFLICTION)
+* See: [Environment-Setup](https://reactnative.dev/docs/environment-setup) (Install dependencies except React Native CLI => VERSION CONFLICTION)
 
 * Configure IP address : Open ```ipconfig.json``` and replace ```192.168.1.24``` with local address
 
@@ -17,16 +17,22 @@ This was a simple shopping mall application , l used the React Native framework 
 1.Install the modules
 ```
 cd (Project path)
-npm install
+yarn install
+react-native link react-native-vector-icons
+react-native link react-native-gesture-handler (To ensure they are linked)
+cd (Project path)/ios
+pod install
 ```
 
 2.Run
 
 ```
 //IOS
-react-native run-ios
+npx react-native start
+npx react-native run-ios
 //Android
-react-native run-android
+npx react-native start
+npx react-native run-android
 ```
 
 ## Screenshots

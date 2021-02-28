@@ -1,0 +1,2 @@
+1、hidden App：command + H
+2. refresh : command + R
